@@ -1,0 +1,60 @@
+html {
+    min-height: 100vh;
+}
+body {
+    font-family: 'Permanent Marker', cursive;
+    color: #842c63;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.form-control::-webkit-input-placeholder { border: 0; opacity: 1; color: #842c63; }
+.form-control:-moz-placeholder { border: 0; opacity: 1; color: #842c63; }
+.form-control::-moz-placeholder { border: 0; opacity: 1; color: #842c63; }
+.form-control:-ms-input-placeholder { border: 0; opacity: 1; color: #842c63; }
+.form-control::-ms-input-placeholder { border:0; opacity: 1; color: #842c63; }
+.form-control { border: 0; color: #842c63; opacity: 1;
+}
+
+.form-control-lg {
+    font-size: 2.5rem;
+}
+
+button {
+    border: none;
+    border-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    color: #842c63;
+    font-size: 2.5rem;
+}
+
+.hidden {
+    display: none;
+}
+select {
+    border: none;
+    border-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+#header-content {
+    max-width: 800px;
+}

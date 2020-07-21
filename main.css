@@ -60,7 +60,7 @@ select {
     max-width: 800px;
 }
 
-#redirect-btn {
+.redirect-btn {
     color: #842c63;
     font-size: 2.5rem;
 }

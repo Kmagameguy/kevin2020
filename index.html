@@ -250,10 +250,11 @@
                 $('#submit-ballot').click(function() {
                     let header = '<h1 class="mt-4 py-4">Hey, instead of voting for another idiot consider making an informed decision: </h1>';
                     let candidates = '<a href="https://politico.com/2020-election/candidates-views-on-the-issues" target="_blank" class="btn btn-lg redirect-btn bg-transparent text-left">Click to Read More</a>';
+                    let vote = '<a href="https://www.usa.gov/register-to-vote" target="_blank" class="btn btn-lg redirect-btn bg-transparent text-left">Click to Check Your Voter Registration</a>';
                     let blm = '<a href="https://blacklivesmatters.carrd.co/" target="_blank" class="btn btn-lg redirect-btn bg-transparent text-left">Click to Support Black Lives Matter</a>';
                     let mental = '<a href="https://www.nami.org/Home" target="_blank" class="btn btn-lg redirect-btn bg-transparent text-left">Click For Mental Health Resources</a>';
                     let american = '<a href="https://www.feedingamerica.org/" target="_blank" class="btn btn-lg redirect-btn bg-transparent text-left">Click to Support Feeding America</a>';
-                    $('#header-content').html(`<div class="my-5 py-5">${header}${candidates}</div><div class="my-5 py-5"><h1>Consider supporting these other organizations: </h1>${blm}${mental}${american}</div>`);
+                    $('#header-content').html(`<div class="my-5 py-5">${header}${candidates}${vote}</div><div class="my-5 py-5"><h1>Consider supporting these other organizations: </h1>${blm}${mental}${american}</div>`);
                     window.scroll(0,0);
                 });
             });
